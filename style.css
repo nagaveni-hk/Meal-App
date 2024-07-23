@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300&display=swap');
+
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #c6c6ca; */
+    /* background: rgb(241, 161, 49);
+    background: linear-gradient(90deg, rgb(148, 106, 58) 1%, rgb(245, 144, 28) 30%, rgb(167, 113, 52) 66%); */
+    background: rgb(183, 241, 49);
+    background: linear-gradient(90deg, rgb(182, 211, 135) 1%, rgb(204, 191, 175) 30%, rgb(206, 218, 75) 66%);
+}
+
+.meal-search{
+    margin: 1rem;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #fff;
+}
+.navbar p:hover{
+    color:rgb(204, 56, 113);
+}
+
+#fav {
+    position: inherit;
+    color: #080808;
+}
+
+
+#fav:hover{
+    color:rgb(204, 56, 113)
+}
+
+.searchbox {
+    margin: 0;
+    width: 60%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding: .8rem 2rem .8rem 1rem;
+    outline: none;
+    border: none;
+    background-color: #5c5858;
+    color: white;
+}
+
+.searchbutton {
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #23212E;
+    margin: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: .8rem 1rem;
+    margin-left: -1.9%;
+}
+
+.searchbutton:hover{
+    background-color: #619ead;
+}
+
+i {
+    color: #F4952C;
+}
+
+.recipe-list {
+    margin: auto;
+}
+
+.card {
+    background-color: #23212E;
+    border-radius: 20px;
+    color: #CFCECE
+}
+h5{
+    color: #F4952C;
+}
+
+.btn-warning {
+    background: rgb(241, 161, 49);
+    background: linear-gradient(90deg, rgb(148, 106, 58) 1%, rgb(245, 144, 28) 30%, rgb(167, 113, 52) 66%);
+    border-radius: 20px;
+    padding: 0.4rem 2rem;
+    color: rgb(156, 55, 55)!important;
+}
+.white{
+    color: rgb(172, 9, 17);
+}
+.food-wid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+    background: rgb(241, 161, 49);
+    background: linear-gradient(90deg, rgb(179, 141, 61) 1%, rgb(60, 172, 56) 30%, rgb(177, 153, 16) 66%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading{
+    font-family: 'Anton', sans-serif;
+}
+
+#recipe-intro{
+    font-weight: lighter!important;
+    word-spacing: 0.3rem;
+    
+    
+}
+
+
